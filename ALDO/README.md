@@ -4,6 +4,6 @@ Please use the [ALDO.sch](https://github.com/chennakeshavadasa/LPCAS-Design-TT-1
 ## Pins
 - VDD, GND (3.3V rated Power Pins)
 - VREF, VOUT_ALDO (Analog I/O Pin)
-- 
+
 ## Schematic
 ![ALDO](https://github.com/user-attachments/assets/99f0fac6-47a4-4bff-983d-ee0aa9bbf22c)
