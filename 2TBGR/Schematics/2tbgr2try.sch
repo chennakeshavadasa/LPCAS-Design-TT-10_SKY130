@@ -72,7 +72,7 @@ N 540 -290 540 -260 {lab=GND}
 N 690 -330 770 -330 {lab=Vref}
 N 740 -330 740 -280 {lab=Vref}
 N 740 -220 740 -190 {lab=GND}
-C {vsource.sym} 260 -250 0 0 {name=V1 value="dc 0.5 ac 1" savecurrent=false}
+C {vsource.sym} 260 -250 0 0 {name=V1 value="dc 1.8 ac 1" savecurrent=false}
 C {gnd.sym} 260 -190 0 0 {name=l4 lab=GND}
 C {vdd.sym} 260 -330 0 0 {name=l5 lab=VDD}
 C {title.sym} 170 -30 0 0 {name=l8 author="Nithin P"}
@@ -112,7 +112,7 @@ C {vdd.sym} 330 -330 0 0 {name=l1 lab=VDD}
 C {gnd.sym} 540 -260 0 0 {name=l2 lab=GND}
 C {capa.sym} 740 -250 0 0 {name=C1
 m=1
-value=25p
+value=10n
 footprint=1206
 device="ceramic capacitor"}
 C {gnd.sym} 740 -190 0 0 {name=l3 lab=GND}
