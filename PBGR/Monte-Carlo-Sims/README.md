@@ -1,5 +1,5 @@
 # Monte Carlo Sims
-- Monte Carlo Sims at different Temperature
+- Monte Carlo Sims at different Temperature(Total Runs: 1000)
 
 ## MC Sims @27°C
 - Distribution
