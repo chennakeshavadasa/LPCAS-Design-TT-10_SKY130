@@ -1,0 +1,39 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 180 -40 200 -40 {}
+L 4 180 40 200 40 {}
+L 4 480 -40 500 -40 {}
+L 4 480 0 500 0 {}
+L 4 480 40 500 40 {}
+L 4 370 -120 370 -100 {}
+L 4 350 -120 350 -100 {}
+L 4 330 -120 330 -100 {}
+L 4 340 100 340 120 {}
+B 5 177.5 -42.5 182.5 -37.5 {name=VIN_PBGR dir=in}
+B 5 177.5 37.5 182.5 42.5 {name=Startup_PBGR dir=in}
+B 5 497.5 -42.5 502.5 -37.5 {name=VPBGR3_OUT dir=out}
+B 5 497.5 -2.5 502.5 2.5 {name=VPBGR1_OUT dir=out}
+B 5 497.5 37.5 502.5 42.5 {name=VPBGR2_OUT dir=out}
+B 5 367.5 -122.5 372.5 -117.5 {name=SW1_PBGR dir=in}
+B 5 347.5 -122.5 352.5 -117.5 {name=SW2_PBGR dir=in}
+B 5 327.5 -122.5 332.5 -117.5 {name=SW3_PBGR dir=in}
+B 5 337.5 117.5 342.5 122.5 {name=GND dir=in}
+P 4 5 200 -100 200 100 480 100 480 -100 200 -100 {}
+T {@symname} 286 -6 0 0 0.3 0.3 {}
+T {@name} 485 -102 0 0 0.2 0.2 {}
+T {VIN_PBGR} 205 -44 0 0 0.2 0.2 {}
+T {Startup_PBGR} 205 36 0 0 0.2 0.2 {}
+T {VPBGR3_OUT} 475 -44 0 1 0.2 0.2 {}
+T {VPBGR1_OUT} 475 -4 0 1 0.2 0.2 {}
+T {VPBGR2_OUT} 475 36 0 1 0.2 0.2 {}
+T {SW1_PBGR} 374 -95 1 0 0.2 0.2 {}
+T {SW2_PBGR} 354 -95 1 0 0.2 0.2 {}
+T {SW3_PBGR} 334 -95 1 0 0.2 0.2 {}
+T {GND} 325 86 0 0 0.2 0.2 {}
