@@ -1117,26 +1117,11 @@ spiceprefix=X
 }
 C {lab_pin.sym} 4320 -770 1 0 {name=p21 sig_type=std_logic lab=vb0}
 C {sky130_fd_pr/res_xhigh_po_1p41.sym} 4460 -410 0 1 {name=R68
-L=4.15
+L=3.9
 model=res_xhigh_po_1p41
 spiceprefix=X
 mult=1}
 C {ngspice_probe.sym} 4460 -520 0 1 {name=r72}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} 4460 -350 0 1 {name=R69
-L=4.15
-model=res_xhigh_po_1p41
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} 4460 -290 0 1 {name=R70
-L=4.15
-model=res_xhigh_po_1p41
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} 4460 -230 0 1 {name=R71
-L=4.15
-model=res_xhigh_po_1p41
-spiceprefix=X
-mult=1}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 4610 -520 0 0 {name=M30
 W=1
 L=0.15
@@ -1425,3 +1410,18 @@ C {ipin.sym} 5370 -570 0 1 {name=p29 lab=SW1_PBGR}
 C {ipin.sym} 5370 -390 0 1 {name=p31 lab=SW2_PBGR}
 C {ipin.sym} 5370 -210 0 1 {name=p35 lab=SW3_PBGR}
 C {title.sym} 170 -40 0 0 {name=l1 author="Nithin P"}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} 4460 -350 0 1 {name=R69
+L=3.9
+model=res_xhigh_po_1p41
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} 4460 -290 0 1 {name=R70
+L=3.9
+model=res_xhigh_po_1p41
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} 4460 -230 0 1 {name=R71
+L=3.9
+model=res_xhigh_po_1p41
+spiceprefix=X
+mult=1}
